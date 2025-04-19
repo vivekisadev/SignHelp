@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h2 align="center"><img src="https://i.imgur.com/3YehHWW.png"></h2>
 
 <p align="center">
@@ -54,3 +55,7 @@ npm i --force
 ```
 npm start
 ```
+=======
+# SignHelp--Sign-Detection-Model
+SignHelp- Sign Detection Model
+>>>>>>> 392fd8bcc725d6df6b839b5d545e31f6331ab58e
