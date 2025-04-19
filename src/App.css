@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.h-24 my-3{
+  height: 10px;
+  margin: 3px;
+}
+.web {
+  width: 640px;
+  height: 480px;
+}
+
+.main-container{
+  height: auto;
+  margin: auto; 
+}
+@media(min-width:768px){
+  .main-container{
+    height: 87vh;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+
+.scrolbar::-webkit-scrollbar {
+  display: none;
+}
+
+.scrolbar {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;
+}
+
+.signContainer > div{
+  margin: 10px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.xScroll::-webkit-scrollbar {
+  height: 5px;
+  
+}
+ 
+.xScroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px gray;
+  border-radius: 30px;
+}
+ 
+.xScroll::-webkit-scrollbar-thumb {
+  background-color: rgba(10, 177, 232, 0.963);
+  outline: 1px solid rgba(10, 177, 232, 0.963);
+  border-radius: 30px;
+}
+
+.scrolbar {
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  
+}
+
