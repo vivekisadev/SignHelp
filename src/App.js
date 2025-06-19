@@ -142,7 +142,7 @@ function App() {
                         Sign-Help 
                       </h2>
                       <p class="leading-relaxed">
-                        Sigh-Help is a web application that uses TensorFlow.js to detect
+                        Sign-Help is a web application that uses TensorFlow.js to detect
                         hand signs in real-time using a webcam. It is designed to assist
                         individuals with hearing/Speech impairments by providing a visual
                         representation of hand signs. The application uses a pre-trained
@@ -170,15 +170,14 @@ function App() {
                   <div class="flex flex-wrap">
                     <div class="p-12 flex flex-col items-center">
                       <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">
-                        Froint-End Developer
+                        Front-End Developer(Team Leader)
                       </span>
                       <img src={DevLogo} alt="HandSign" className="h-24 my-3" />
                       <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">
                         Vivek Verma
                       </h2>
                       <p class="leading-relaxed mb-8">
-                        Dedicated to learning new things, this was my final year
-                        project for B.Tech Computer Science course. Attentive to
+                        Dedicated to learning new things, attentive to
                         new ideas and technologies, I have been involved in
                         multiple projects and this web app is one of them. Make
                         sure to checkout my{' '}
@@ -261,25 +260,12 @@ function App() {
                         Avnish Soni
                       </h2>
                       <p class="leading-relaxed mb-8">
-                        Dedicated to learning new things, this was my final year
-                        project for B.Tech Computer Science course. Attentive to
-                        new ideas and technologies, I have been involved in
-                        multiple projects and this web app is one of them. Make
-                        sure to checkout my{' '}
-                        <a
-                          href="https://github.com/itsvaibhavmishra"
-                          className="text-blue-500 transition-all duration-300 font-semibold hover:text-lg"
-                          target={'_blank'}
-                          rel="noreferrer"
-                        >
-                          GitHub
-                        </a>{' '}
-                        for more of my projects.
+                      Contributed to the visual direction of the project by designing presentation materials and aligning the overall look and feel through engaging PDFs and slides. While hands-on design implementation is a work in progress, his creative input and design mindset helped shape the team's understanding of user experience and communication.
                       </p>
                       <div class="flex items-center justify-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
                         <a
                           class="inline-flex items-center md:w-1/3 mb-2"
-                          href="https://github.com/ucancallmevivek"
+                          href="https://github.com/avnish-1298"
                           target={'_blank'}
                           rel="noreferrer"
                         >
@@ -290,7 +276,7 @@ function App() {
                           />
                           <span class="flex-grow flex flex-col">
                             <span class="title-font font-medium text-gray-900 text-sm">
-                              @itsvaibhavmishra
+                              @avnish-1298
                             </span>
                             <span class="text-gray-400 text-xs tracking-widest mt-0.5">
                               GitHub
@@ -299,7 +285,7 @@ function App() {
                         </a>
                         <a
                           class="inline-flex items-center md:w-1/3 mb-2"
-                          href="https://www.linkedin.com/in/vivekkverma20/"
+                          href="https://www.linkedin.com/in/avnishsoni98/"
                           target={'_blank'}
                           rel="noreferrer"
                         >
@@ -310,7 +296,7 @@ function App() {
                           />
                           <span class="flex-grow flex flex-col">
                             <span class="title-font font-medium text-gray-900 text-sm">
-                              @itsvaibhavmishra
+                              @avnishsoni98
                             </span>
                             <span class="text-gray-400 text-xs tracking-widest mt-0.5">
                               LinkedIn
@@ -319,7 +305,7 @@ function App() {
                         </a>
                         <a
                           class="inline-flex items-center md:w-1/3"
-                          href="mailto:iamvivek1602@gmail.com"
+                          href="mailto:avnishsoni1298@gmail.com"
                         >
                           <img
                             alt="gmail"
@@ -328,7 +314,7 @@ function App() {
                           />
                           <span class="flex-grow flex flex-col">
                             <span class="title-font font-medium text-gray-900 text-sm">
-                              vaibhavmishra658
+                              avnishsoni1298
                             </span>
                             <span class="text-gray-400 text-xs tracking-widest mt-0.5">
                               Gmail
@@ -337,6 +323,150 @@ function App() {
                         </a>
                       </div>
                     </div>
+                    <div class="p-12 flex flex-col items-center">
+                      <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">
+                        Front-end Developer
+                      </span>
+                      
+                      <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">
+                        Ayushi Singh
+                      </h2>
+                      <p class="leading-relaxed mb-8">
+                      Frontend Developer with a passion for crafting clean, responsive, and user-friendly web interfaces. Skilled in HTML, CSS, JavaScript, and modern frameworks like React and Vue. I focus on creating seamless user experiences, optimizing performance, and bringing design ideas to life with pixel-perfect precision. Always learning, always building.
+                      </p>
+                      <div class="flex items-center justify-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+                        <a
+                          class="inline-flex items-center md:w-1/3 mb-2"
+                          href="https://github.com/singhayushi28"
+                          target={'_blank'}
+                          rel="noreferrer"
+                        >
+                          <img
+                            alt="github"
+                            src="https://img.icons8.com/material-outlined/344/github.png"
+                            class="h-12 rounded-full flex-shrink-0 object-cover object-center"
+                          />
+                          <span class="flex-grow flex flex-col">
+                            <span class="title-font font-medium text-gray-900 text-sm">
+                              @singhayushi28
+                            </span>
+                            <span class="text-gray-400 text-xs tracking-widest mt-0.5">
+                              GitHub
+                            </span>
+                          </span>
+                        </a>
+                        <a
+                          class="inline-flex items-center md:w-1/3 mb-2"
+                          href="https://www.linkedin.com/in/ayushi-singh-78711032b/"
+                          target={'_blank'}
+                          rel="noreferrer"
+                        >
+                          <img
+                            alt="linkedin"
+                            src="https://img.icons8.com/fluency/344/linkedin-circled.png"
+                            class="h-12 rounded-full flex-shrink-0 object-cover object-center"
+                          />
+                          <span class="flex-grow flex flex-col">
+                            <span class="title-font font-medium text-gray-900 text-sm">
+                              @ayushi-singh-78711032b
+                            </span>
+                            <span class="text-gray-400 text-xs tracking-widest mt-0.5">
+                              LinkedIn
+                            </span>
+                          </span>
+                        </a>
+                        <a
+                          class="inline-flex items-center md:w-1/3"
+                          href="mailto:ayushisingh472006@gmail.com"
+                        >
+                          <img
+                            alt="gmail"
+                            src="https://img.icons8.com/color/344/google-plus--v1.png"
+                            class="h-12 rounded-full flex-shrink-0 object-cover object-center"
+                          />
+                          <span class="flex-grow flex flex-col">
+                            <span class="title-font font-medium text-gray-900 text-sm">
+                              ayushisingh472006
+                            </span>
+                            <span class="text-gray-400 text-xs tracking-widest mt-0.5">
+                              Gmail
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="p-12 flex flex-col items-center">
+                      <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">
+                        Back-end Developer
+                      </span>
+                      <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">
+                        Gautum Saini
+                      </h2>
+                      <p class="leading-relaxed mb-8">
+                      I am a backend developer with a strong foundation in AI, data science, and scalable system design. My work reflects a deep understanding of server-side technologies, data processing, API development, and intelligent automation. I bring a unique mix of practical engineering skills and innovation, having built systems ranging from real-time home automation with embedded AI to intelligent dashboards and simulations powered by machine learning.
+                      </p>
+                      <div class="flex items-center justify-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+                        <a
+                          class="inline-flex items-center md:w-1/3 mb-2"
+                          href="https://github.com/Gautam-Saini"
+                          target={'_blank'}
+                          rel="noreferrer"
+                        >
+                          <img
+                            alt="github"
+                            src="https://img.icons8.com/material-outlined/344/github.png"
+                            class="h-12 rounded-full flex-shrink-0 object-cover object-center"
+                          />
+                          <span class="flex-grow flex flex-col">
+                            <span class="title-font font-medium text-gray-900 text-sm">
+                              @gautam-saini
+                            </span>
+                            <span class="text-gray-400 text-xs tracking-widest mt-0.5">
+                              GitHub
+                            </span>
+                          </span>
+                        </a>
+                        <a
+                          class="inline-flex items-center md:w-1/3 mb-2"
+                          href="https://www.linkedin.com/in/gautam-saini-001421357"
+                          target={'_blank'}
+                          rel="noreferrer"
+                        >
+                          <img
+                            alt="linkedin"
+                            src="https://img.icons8.com/fluency/344/linkedin-circled.png"
+                            class="h-12 rounded-full flex-shrink-0 object-cover object-center"
+                          />
+                          <span class="flex-grow flex flex-col">
+                            <span class="title-font font-medium text-gray-900 text-sm">
+                              @gautam-saini-001421357
+                            </span>
+                            <span class="text-gray-400 text-xs tracking-widest mt-0.5">
+                              LinkedIn
+                            </span>
+                          </span>
+                        </a>
+                        <a
+                          class="inline-flex items-center md:w-1/3"
+                          href="mailto:gautam.saini.1969@gmail.com"
+                        >
+                          <img
+                            alt="gmail"
+                            src="https://img.icons8.com/color/344/google-plus--v1.png"
+                            class="h-12 rounded-full flex-shrink-0 object-cover object-center"
+                          />
+                          <span class="flex-grow flex flex-col">
+                            <span class="title-font font-medium text-gray-900 text-sm">
+                              gautam.saini.1969
+                            </span>
+                            <span class="text-gray-400 text-xs tracking-widest mt-0.5">
+                              Gmail
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    
                   </div>
                 </div>
               </section>

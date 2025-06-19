@@ -47,7 +47,6 @@ git clone https://github.com/im-ankitjais/SLDP.git
 2. Install Dependencies
 
 ```
-npm i --force
 ```
 
 3. Run Project
@@ -58,4 +57,4 @@ npm start
 =======
 # SignHelp--Sign-Detection-Model
 SignHelp- Sign Detection Model
->>>>>>> 392fd8bcc725d6df6b839b5d545e31f6331ab58e
+
