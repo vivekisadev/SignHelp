@@ -14,11 +14,11 @@
 <h2 align="center">About Project</h2>
 
 <p align="center">
-  This project is an extension of the <a href="https://github.com/itsvaibhavmishra/SLDP-MODEL">SLDP_Model</a> project aiming to develop a web-based application to
+  This project is an extension of the <a href="">SLDP_Model</a> project aiming to develop a web-based application to
   detect sign languages in real-time using <img align="center" src="https://img.shields.io/badge/tensorflowjs-3.18.0-orange?style=flat-square&logo=html5&logoColor=white"/> in order to enable speech-impaired people to communicate effectively.
 </p>
 
-<p align="center">Project Live - <a href="https://sldp.netlify.app">Here</a></p><br>
+<p align="center">Project Live - <a href="">Here</a></p><br>
 
 <h2 align="center">Available Signs</h2>
 
@@ -41,12 +41,13 @@
 1. Clone Repo
 
 ```
-git clone https://github.com/im-ankitjais/SLDP.git
+git clone https://github.com/ucancallmevivek/SignHelp.git
 ```
 
 2. Install Dependencies
 
 ```
+npm install --legacy-peer-deps
 ```
 
 3. Run Project
