@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "../App.css";
-import ModalImage from "react-modal-image";
+import Modal from "./Modal";
 
 import sign1 from "../assets/Bathroom.png";
 import sign2 from "../assets/Friend.png";
@@ -12,51 +12,53 @@ import sign7 from "../assets/Thank You.png";
 import sign8 from "../assets/Yes.png";
 import sign9 from "../assets/Taijutsu.png";
 
+const images = [
+  { src: sign1, alt: "Bathroom-Sign" },
+  { src: sign2, alt: "Friend-Sign" },
+  { src: sign3, alt: "Hello-Sign" },
+  { src: sign4, alt: "No-Sign" },
+  { src: sign5, alt: "Ok-Sign" },
+  { src: sign6, alt: "Please-Sign" },
+  { src: sign7, alt: "Thank You-Sign" },
+  { src: sign8, alt: "Yes-Sign" },
+  { src: sign9, alt: "Special-Sign" },
+];
+
 const Images = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const openModal = (image) => {
+    setSelectedImage(image);
+  };
+
+  const closeModal = () => {
+    setSelectedImage(null);
+  };
+
   return (
-    <div className="overflow-y-hidden bottom-5 left-0 xScroll overflow-x-scroll">
+    <>
+      <div className="overflow-y-hidden bottom-5 left-0 xScroll overflow-x-scroll">
         <div className=" flex signContainer">
-
-            <div className="flex-shrink-0 p-1">
-                <ModalImage small={sign1} large={sign1} alt="Bathroom-Sign"/>
+          {images.map((image, index) => (
+            <div
+              className="flex-shrink-0 p-1"
+              key={index}
+              onClick={() => openModal(image)}
+            >
+              <img src={image.src} alt={image.alt} />
             </div>
-
-            <div className="flex-shrink-0 p-1">
-                <ModalImage small={sign2} large={sign2} alt="Friend-Sign"/>
-            </div>
-
-            <div className="flex-shrink-0 p-1">
-                <ModalImage small={sign3} large={sign3} alt="Hello-Sign" />
-            </div>
-
-            <div className="flex-shrink-0 p-1">
-                <ModalImage small={sign4} large={sign4} alt="No-Sign" />
-            </div>
-
-            <div className="flex-shrink-0 p-1">
-                <ModalImage small={sign5} large={sign5} alt="Ok-Sign" />
-            </div>
-
-            <div className="flex-shrink-0 p-1">
-                <ModalImage small={sign6} large={sign6} alt="Please-Sign" />
-            </div>
-
-            <div className="flex-shrink-0 p-1">
-                <ModalImage small={sign7} large={sign7} alt="Thank You-Sign" />
-            </div>
-
-            <div className="flex-shrink-0 p-1">
-                <ModalImage small={sign8} large={sign8} alt="Yes-Sign" />
-            </div>
-
-            <div className="flex-shrink-0 p-1">
-                <ModalImage small={sign9} large={sign9} alt="Special-Sign" />
-                {/* This sign was originated from Naruto-(Hidden Leaf Secret Tai-Jutsu 1000 YEARS OF DEATH)
-                First used by Kakashi The Copy Ninja Against Naruto
-                It's just for fun */}
-            </div>
+          ))}
         </div>
-    </div>
+      </div>
+      {selectedImage && (
+        <Modal
+          src={selectedImage.src}
+          alt={selectedImage.alt}
+          caption={selectedImage.alt}
+          onClose={closeModal}
+        />
+      )}
+    </>
   );
 };
 
