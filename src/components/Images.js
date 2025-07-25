@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import ModalImage from "react-modal-image";
+import ModalImage from "react-modal-image-responsive";
 
 import sign1 from "../assets/Bathroom.png";
 import sign2 from "../assets/Friend.png";
