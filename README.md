@@ -41,7 +41,7 @@
 1. Clone Repo
 
 ```
-git clone https://github.com/ucancallmevivek/SignHelp.git
+git clone https://github.com/vivekisadev/SignHelp.git
 ```
 
 2. Install Dependencies
