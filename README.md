@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h2 align="center"><img src="https://i.imgur.com/3YehHWW.png"></h2>
 
 <p align="center">
@@ -55,7 +54,3 @@ npm install --legacy-peer-deps
 ```
 npm start
 ```
-=======
-# SignHelp--Sign-Detection-Model
-SignHelp- Sign Detection Model
-
