@@ -182,7 +182,7 @@ function App() {
                         multiple projects and this web app is one of them. Make
                         sure to checkout my{' '}
                         <a
-                          href="https://github.com/ucancallmevivek"
+                          href="https://github.com/vivekisadev"
                           className="text-blue-500 transition-all duration-300 font-semibold hover:text-lg"
                           target={'_blank'}
                           rel="noreferrer"
@@ -194,7 +194,7 @@ function App() {
                       <div class="flex items-center justify-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
                         <a
                           class="inline-flex items-center md:w-1/3 mb-2"
-                          href="https://github.com/ucancallmevivek"
+                          href="https://github.com/vivekisadev"
                           target={'_blank'}
                           rel="noreferrer"
                         >
@@ -214,7 +214,7 @@ function App() {
                         </a>
                         <a
                           class="inline-flex items-center md:w-1/3 mb-2"
-                          href="https://www.linkedin.com/in/vivekkverma20/"
+                          href="https://www.linkedin.com/in/vivekverma16/"
                           target={'_blank'}
                           rel="noreferrer"
                         >
