@@ -205,7 +205,7 @@ function App() {
                           />
                           <span class="flex-grow flex flex-col">
                             <span class="title-font font-medium text-gray-900 text-sm">
-                              @ucancallmevivek
+                              @vivekisadev
                             </span>
                             <span class="text-gray-400 text-xs tracking-widest mt-0.5">
                               GitHub
@@ -225,7 +225,7 @@ function App() {
                           />
                           <span class="flex-grow flex flex-col">
                             <span class="title-font font-medium text-gray-900 text-sm">
-                              @vivekkverma20
+                              @vivekverma16
                             </span>
                             <span class="text-gray-400 text-xs tracking-widest mt-0.5">
                               LinkedIn
