@@ -18,7 +18,7 @@
   detect sign languages in real-time using <img align="center" src="https://img.shields.io/badge/tensorflowjs-3.18.0-orange?style=flat-square&logo=html5&logoColor=white"/> in order to enable speech-impaired people to communicate effectively.
 </p>
 
-<p align="center">Project Live - <a target="_blank" href="https://signhelp.vercel.app/">Here</a></p><br>
+<p align="center">Project Live - <a target="_blank"rel="noopener" href="https://signhelp.vercel.app/">Here</a></p><br>
 
 <h2 align="center">Available Signs</h2>
 
